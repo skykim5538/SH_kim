@@ -1,6 +1,30 @@
+/// 연습문제 4_4 
+// 1+ (-2)+3 + (-4)......몇 까지 더해야 총합이 100 이상이 되는가?
+
+
 public class Test4_4 {
     public static void main(String[] args) {
 
+
+int i =1;
+int j= -2;
+int sum = 0;
+
+while (sum<110)     {
+    sum = i+j;
+    System.out.printf("%d + %d = %d%n",i,j, sum);
+
+    i += 2;
+    j -= 2;
+}
+
+
+
+
+
+        }
+    }
+//// 시도들 
 //        for (int i = 0; i <= 100; i++) {
 //            for (int j = -1; j <= -100; j--) {
 //                int sum = 0;
@@ -63,22 +87,3 @@ public class Test4_4 {
 //
 //            System.out.printf("%d%n", j);
 //        }
-
-int i =1;
-int j= -2;
-int sum = 0;
-
-while (sum<110)     {
-    sum = i+j;
-    System.out.printf("%d + %d = %d%n",i,j, sum);
-
-    i += 2;
-    j -= 2;
-}
-
-
-
-
-
-        }
-    }
