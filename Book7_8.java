@@ -29,3 +29,5 @@ class Point3D1 extends point1 {
     this.z=z;
     }
 }
+
+// 생성자 super ( )는 같은 멤버수를 가진 조상의 생성자로 들어간다.  
